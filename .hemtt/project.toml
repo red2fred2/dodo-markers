@@ -1,0 +1,7 @@
+name = "Dodo Markers"
+prefix = "dodo_markers"
+
+[version]
+major = 0
+minor = 1
+patch = 1
