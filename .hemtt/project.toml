@@ -1,7 +1,20 @@
 name = "Dodo Markers"
 prefix = "dodo_markers"
+mainprefix = "z"
 
 [version]
 major = 0
 minor = 1
 patch = 1
+
+git_hash = 0
+
+[hemtt.launch.default]
+mission = "vr squad.vr"
+parameters = [
+	"-skipIntro",
+    "-noSplash",
+    "-showScriptErrors",
+    "-debug",
+    "-filePatching"
+]
