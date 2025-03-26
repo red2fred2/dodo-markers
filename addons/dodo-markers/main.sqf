@@ -9,7 +9,7 @@ dodo_markers_height = 0.5;
 // Draw the player's group
 dodo_markers_draw = {
 	{
-		private _position = ASLtoAGL eyePos _x;
+		private _position = ASLToAGL eyePos _x;
 		private _name = name _x;
 
 		drawIcon3D [dodo_markers_marker, dodo_markers_color, _position, dodo_markers_width, dodo_markers_height, 0, _name, 2];
